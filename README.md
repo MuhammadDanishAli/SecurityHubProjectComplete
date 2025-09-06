@@ -1,130 +1,129 @@
+🔐 SecurityHub Project
 
+A complete security monitoring system integrating hardware sensors, backend intelligence, and frontend/app interfaces.
+This project demonstrates real-time sensor data collection, backend processing, and user-friendly monitoring via web & mobile apps.
 
-# 🔐 SecurityHub Project (Complete)
+📸 Project Preview
+Frontend (Web Dashboard)
 
-A **real-time IoT-based security monitoring system** integrating hardware, backend, frontend, and mobile app.  
-The system connects **ESP32 hub + sensors** in a star topology to a **backend (Django + FastAPI)**, with a **web dashboard (React)** for superuser control and a **mobile app (React Native)** for client alerts.
-
----
-
-## 🚀 Features
-- 🛰️ **Star Topology Hardware Network** (ESP32 Hub + multiple sensor nodes)  
-- 📡 **MQTT Communication** between hub and backend  
-- 🔥 **Alerts & Notifications** (door intrusion, fire detection, system logs)  
-- 🖥️ **Web Dashboard** for monitoring & system control  
-- 📱 **Mobile App** for client alerts & interaction  
-- ⚡ **Backend Integration** with real-time APIs  
-
----
-
-## 🛠️ Tech Stack
-
-### Hardware
-- **ESP32 Hub** (central controller)
-- **Peripheral Sensors** (door, fire, motion, etc.)
-- **MQTT Broker** for communication
-
-### Backend (my main work 💻)
-- **Django** → Core backend logic & database models
-- **FastAPI** → REST APIs for frontend & mobile integration
-- **SQLite/PostgreSQL** → Database
-- **Real-time Alerts** logging & API endpoints
-
-### Frontend (team contribution, improvised by me ✨)
-- **React.js**
-- **Tailwind CSS**
-- **Recharts / ShadCN UI**
-
-### Mobile App (team contribution, improvised by me ✨)
-- **React Native**
-- **Expo**
-
----
-
-## 📂 Project Structure
-
-
-SecurityHubProjectComplete/
-│── backend/        # Django + FastAPI backend (my main focus)
-│── frontend/       # React frontend dashboard (improvised)
-│── app/            # React Native mobile app (improvised)
-│── hardware/       # ESP32 firmware code + circuit diagrams
-│── README.md       # Project documentation
-│── .gitignore      # Ignore unnecessary files
-
-
-
-
-## 📸 Demonstration
-
-### Hardware Setup
-![ESP32 Hub + Sensor Nodes](hardware/diagram.png)
-
-### System Dashboard
 ![Frontend Dashboard](frontend/src/Logo7.png)
 
-### Mobile App
-![Mobile App](app/assets/demo.png)
+![Frontend Dashboard](frontend/src/Logo7.png)
+
+![Frontend Dashboard](frontend/src/Logo7.png)
 
 
-## ⚙️ Setup Instructions
+Hardware Setup
 
-### 1. Clone the Repo
-``   bash
-git clone https://github.com/MuhammadDanishAli/SecurityHubProjectComplete.git
-cd SecurityHubProjectComplete
+![Hardware setup](frontend/src/Logo7.png)
+
+![Hardware setup](frontend/src/Logo7.png)
 
 
-### 2. Backend Setup
+Mobile App
 
-bash
+![Mobile App](frontend/src/Logo7.png)
+
+![Mobile App](frontend/src/Logo7.png)
+
+
+🚀 Features
+
+Hardware Integration
+
+ESP32-based central hub (star topology)
+
+Fire, motion, door, and other security sensors
+
+MQTT-based real-time communication
+
+Backend (Core)
+
+Django + FastAPI hybrid backend
+
+Real-time alert logging & monitoring
+
+Microsoft Access + Excel database integration
+
+Frontend (Web)
+
+React + TailwindCSS dashboard
+
+Real-time visualization for superuser monitoring
+
+Mobile App
+
+React Native app for client alerts
+
+Simplified mobile-first monitoring
+
+🛠️ Tech Stack
+Layer	Tools / Frameworks
+Hardware	ESP32, Fire & Motion Sensors
+Communication	MQTT (Mosquitto / EMQX)
+Backend	Django, FastAPI, SQLite / MS Access
+Frontend	React, TailwindCSS
+Mobile	React Native
+Versioning	Git + GitHub
+📂 Project Structure
+SecurityHubProjectComplete/
+│── backend/         # Django + FastAPI backend
+│── frontend/        # Web dashboard (React)
+│── app/             # Mobile app (React Native)
+│── hardware/        # ESP32 + sensor firmware
+│── database/        # Access DB + Excel integrations
+│── images/          # Project screenshots & diagrams
+│── venv/            # Python virtual environment
+│── README.md        # Project documentation
+
+⚡ Installation & Setup
+Backend
 cd backend
 pip install -r requirements.txt
-python manage.py runserver
+uvicorn main:app --reload
 
-
-### 3. Frontend Setup
-
-bash
+Frontend
 cd frontend
 npm install
 npm start
 
-### 4. Mobile App Setup
-
-bash
+Mobile App
 cd app
 npm install
-npx expo start
+npx react-native run-android   # or run-ios
 
+📡 Hardware Setup
 
-### 5. Hardware Setup
+Connect ESP32 as the central hub.
 
-* Flash ESP32 hub with firmware (see `/hardware/esp32_hub.ino`)
-* Connect sensor nodes (door, fire, etc.)
-* Configure MQTT broker (e.g., Mosquitto)
-* Verify backend receives data via API
+Attach sensors (fire, motion, door, etc.) using star topology.
 
----
+Configure MQTT broker (Mosquitto/EMQX).
 
-## 👨‍💻 Contributions
+Flash the ESP32 firmware (code inside hardware/).
 
-* **Muhammad Danish Ali (me)** – Backend development, hardware integration, ESP32 communication, backend ↔ frontend/app API integration
-* **Team Members** – Web frontend (React), mobile app (React Native)
+📖 Research & Paper
 
----
+This project forms the foundation of a research paper on:
 
-## 🎯 Future Enhancements
+IoT-based security frameworks
 
-* AI-based anomaly detection for smarter alerts
-* Cloud database support
-* Mobile push notifications
-* Role-based access control
+Real-time alert mechanisms
 
----
+Hardware-software integration challenges
 
-```
+👨‍💻 Contributions
 
+Muhammad Danish Ali – Backend development, hardware integration, system design
 
-Do you want me to also draft a **short section for `/hardware/README.md`** (ESP32 setup, MQTT config, flashing guide), so your hardware contribution is documented separately too?
-```
+Team – Web dashboard & mobile app
+
+.
+
+📬 Contact
+
+Author: Muhammad Danish Ali
+
+GitHub Repo: SecurityHubProjectComplete
+
+Email: muhammad.danish.at.work@gmail.com
