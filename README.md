@@ -21,7 +21,7 @@ Central Hub
 
 Node
 
-![Hardware setup](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Nodes.jpeg)
+![Hardware setup](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Node.jpeg)
 
 
 Mobile App
