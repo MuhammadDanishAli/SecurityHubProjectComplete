@@ -15,16 +15,20 @@ Frontend (Web Dashboard)
 
 Hardware Setup
 
-![Hardware setup](frontend/src/Logo7.png)
+Central Hub
 
-![Hardware setup](frontend/src/Logo7.png)
+![Hardware setup](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Central_HUB.jpeg)
+
+Node
+
+![Hardware setup](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Nodes.jpeg)
 
 
 Mobile App
 
-![Mobile App](frontend/src/Logo7.png)
+![Mobile App](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/App1.jpeg)
 
-![Mobile App](frontend/src/Logo7.png)
+![Mobile App](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/App2.jpeg)
 
 
 🚀 Features
