@@ -6,11 +6,11 @@ This project demonstrates real-time sensor data collection, backend processing, 
 📸 Project Preview
 Frontend (Web Dashboard)
 
-![Frontend Dashboard](frontend/src/Logo7.png)
+![Frontend Dashboard](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Frontend.png)
 
-![Frontend Dashboard](frontend/src/Logo7.png)
+![Frontend Dashboard](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Frontend2.png)
 
-![Frontend Dashboard](frontend/src/Logo7.png)
+![Frontend Dashboard](https://github.com/MuhammadDanishAli/SecurityHubProjectComplete/blob/main/Frontend3.png)
 
 
 Hardware Setup
