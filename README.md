@@ -69,17 +69,16 @@ Backend	Django, FastAPI, SQLite / MS Access
 Frontend	React, TailwindCSS
 Mobile	React Native
 Versioning	Git + GitHub
-📂 Project Structure
 SecurityHubProjectComplete/
-│── backend/         # Django + FastAPI backend
-│── frontend/        # Web dashboard (React)
-│── app/             # Mobile app (React Native)
-│── hardware/        # ESP32 + sensor firmware
-│── database/        # Access DB + Excel integrations
-│── images/          # Project screenshots & diagrams
-│── venv/            # Python virtual environment
-│── README.md        # Project documentation
-
+├── backend/                # Backend services (Django + FastAPI)
+├── frontend/               # Web dashboard (React)
+├── mobile/                 # Mobile application (React Native)
+├── firmware/               # ESP32 and sensor firmware
+├── database/               # Database configurations and Excel integrations
+├── assets/                 # Project screenshots, diagrams, and media
+├── docs/                   # Project documentation and additional guides
+├── venv/                   # Python virtual environment
+└── README.md               # Project overview and setup instructions
 ⚡ Installation & Setup
 Backend
 cd backend
