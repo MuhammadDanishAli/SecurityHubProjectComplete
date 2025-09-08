@@ -66,10 +66,15 @@ Simplified mobile-first monitoring
 Layer	Tools / Frameworks
 
 Hardware	ESP32, Fire & Motion Sensors
+
 Communication	MQTT (Mosquitto / EMQX)
+
 Backend	Django, FastAPI, SQLite / MS Access
+
 Frontend	React, TailwindCSS
+
 Mobile	React Native
+
 Versioning	Git + GitHub
 
 SecurityHubProjectComplete/
