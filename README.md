@@ -77,6 +77,7 @@ Mobile	React Native
 
 Versioning	Git + GitHub
 
+
 SecurityHubProjectComplete/
 
 ├── backend/                # Django + FastAPI backend services
@@ -97,6 +98,8 @@ SecurityHubProjectComplete/
 
 └── README.md               # Project overview and setup
 
+
+
 ⚡ Installation & Setup
 
 Backend
@@ -108,13 +111,19 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 
 Frontend
+
 cd frontend
+
 npm install
+
 npm start
 
 Mobile App
+
 cd app
+
 npm install
+
 npx react-native run-android   # or run-ios
 
 📡 Hardware Setup
