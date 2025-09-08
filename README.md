@@ -64,20 +64,12 @@ Simplified mobile-first monitoring
 🛠️ Tech Stack
 
 Layer	Tools / Frameworks
-
 Hardware	ESP32, Fire & Motion Sensors
-.
 Communication	MQTT (Mosquitto / EMQX)
-.
 Backend	Django, FastAPI, SQLite / MS Access
-.
 Frontend	React, TailwindCSS
-.
 Mobile	React Native
-.
 Versioning	Git + GitHub
-
-
 
 SecurityHubProjectComplete/
 ├── backend/                # Django + FastAPI backend services
@@ -89,8 +81,6 @@ SecurityHubProjectComplete/
 ├── docs/                   # Documentation and guides
 ├── venv/                   # Python virtual environment
 └── README.md               # Project overview and setup
-
-
 
 ⚡ Installation & Setup
 Backend
