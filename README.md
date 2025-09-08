@@ -78,20 +78,33 @@ Mobile	React Native
 Versioning	Git + GitHub
 
 SecurityHubProjectComplete/
+
 ├── backend/                # Django + FastAPI backend services
+
 ├── frontend/               # React web dashboard
+
 ├── mobile/                 # React Native mobile app
+
 ├── firmware/               # ESP32 and sensor firmware
+
 ├── database/               # SQLite/MS Access configurations
+
 ├── assets/                 # Screenshots, diagrams, and media
+
 ├── docs/                   # Documentation and guides
+
 ├── venv/                   # Python virtual environment
+
 └── README.md               # Project overview and setup
 
 ⚡ Installation & Setup
+
 Backend
+
 cd backend
+
 pip install -r requirements.txt
+
 uvicorn main:app --reload
 
 Frontend
