@@ -64,6 +64,7 @@ Simplified mobile-first monitoring
 🛠️ Tech Stack
 
 Layer	Tools / Frameworks
+
 Hardware	ESP32, Fire & Motion Sensors
 Communication	MQTT (Mosquitto / EMQX)
 Backend	Django, FastAPI, SQLite / MS Access
